@@ -26,6 +26,7 @@ Features:
 - 3 Boilerplates `docker-compose` setups to bootstrap a setup:
   - One with [basic authentication](minimal-setup/basic-auth) only to demonstrate study sharing.
   - One with [Keycloak integration](minimal-setup/keycloak) to demonstrate user management and study sharing
+  - One with [Authentik integration](minimal-setup/authentik) to demonstrate login with a generic OIDC provider
   - One full setup with [Keycloak, MedDream and Orthanc for API](minimal-setup/keycloak) to demonstrate user management, study sharing, MedDream usage and an extra orthanc accessible e.g by DicomWebClient.
 - provides a set of companion docker images to ease deployment:
   - [orthancteam/orthanc-aut-service](https://hub.docker.com/r/orthancteam/orthanc-auth-service) is the webservice generating and validating tokens.  The web service is also providing user permissions from Keycloak defined roles.
